@@ -18,5 +18,18 @@ public class Cliente {
     public void alteraNome(String nome){
         this.nome = nome;
     }
-    }
+     
+    /*Metodo Get e Set no Java é primitivo em Java sem instanciar 
+    Get = Selecione o atribudo e consulta
+    Set = Insertar(alterar) um novo valor no atributo atráves do Metodo
+    */
+     public String getNome(){
+         return this.nome;
+     }
+      public void setNome(String nome){
+          this.nome = nome;
+      }      
+     }
+    
+    
 
