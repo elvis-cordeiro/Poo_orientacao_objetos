@@ -7,7 +7,7 @@ package javameupacote;
  */
 public class Cliente {
     //Atributos
-    private String nome = "Elvis";
+    public String nome = "Elvis";
     int cpf;
     int codigo;
     //Criando Metodo Para consulta e alteração do nome é o encapsulado "Private" 

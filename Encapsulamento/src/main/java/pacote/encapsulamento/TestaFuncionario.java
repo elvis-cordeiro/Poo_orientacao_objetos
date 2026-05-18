@@ -12,10 +12,10 @@ public class TestaFuncionario {
        //intanciando e chamando o metodo Set do encapsulamento da Classe
        f1.setNome("Elvis");
        f1.setSalario(70.456);
+      
        
        //Mostrando o resultado encapsulado Feito com o Metodo Get 
        System.out.println(" Nome: "+ f1.getNome() + " e o Salario R$:" + f1.getSalario());
-               
     }
     
 }
