@@ -8,13 +8,6 @@ public class Secretaria extends Funcionario {
     
     private int ramal;
 
-    public Secretaria (int ramal) {
-        System.out.println("Instanciando Secretaria");
-        this.ramal = ramal;
-        this.mostraDados();
-    }
-    
-    
     public int getRamal() {
         return ramal;
     }
@@ -23,8 +16,5 @@ public class Secretaria extends Funcionario {
         this.ramal = ramal;
     }
     
-    public void mostraDados(){
-        super.mostraDados();
-        System.out.println(" Ramal = " + this.ramal);
-    }
+    
 }

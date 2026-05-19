@@ -7,14 +7,20 @@ com "private"
 public class Telefonista extends Funcionario {
     
     private int estacaoDetrabalho;
-
-    public int getEstacaoDetrabalho() {
-        return estacaoDetrabalho;
-    }
-
-    public void setEstacaoDetrabalho(int estacaoDetrabalho) {
-        this.estacaoDetrabalho = estacaoDetrabalho;
+  
+    public Telefonista (String nome, double salario){
+        System.out.println("Instaciando Telefonista");
+        setNome(nome);
+        setSalario(salario);
+       
+        this.mostraDados();
+        
     }
     
+    public void mostraDados(){
+        super.mostraDados();
+        System.out.println("Estação de Trabalho= " +this.estacaoDetrabalho);
+       
+    }
     
 }
